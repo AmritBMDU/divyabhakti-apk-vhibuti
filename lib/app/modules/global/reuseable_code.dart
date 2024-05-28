@@ -70,7 +70,7 @@ Widget AartiPujari(image, one, two){
         border: Border.all(color: Colors.yellow,width: 3),
         image:DecorationImage(image: NetworkImage(
             'https://images-cdn.bridgemanimages.com/api/1.0/image/600wm.GNG.10158250.7055475/5281922.jpg'
-        ),
+        ),fit: BoxFit.cover
         ),backgroundBlendMode: BlendMode.multiply
     ),
     child: Column(
@@ -87,7 +87,7 @@ Widget AartiPujari(image, one, two){
         //     ),
         //   ),
         // ),
-        SizedBox(height: 85,),
+        SizedBox(height: 90,),
         Text('Shri Shama',style: TextStyle( fontSize: 18, color: Colors.white,fontWeight: FontWeight.bold),),
         // Text(two,style: TextStyle( fontSize: 16, color: Colors.black),),
         // Text('Aarti',style: TextStyle( fontSize: 14, color: Colors.white),),

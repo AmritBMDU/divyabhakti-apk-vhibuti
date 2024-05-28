@@ -1,24 +1,15 @@
-import 'package:curved_labeled_navigation_bar/curved_navigation_bar.dart';
-import 'package:curved_labeled_navigation_bar/curved_navigation_bar_item.dart';
 import 'package:divya_bhakti/app/Route/appRoute.dart';
-import 'package:divya_bhakti/app/modules/Naam%20Jap/view/japa_view.dart';
-//import 'package:divya_bhakti/app/modules/drawer/drawer.dart';
 import 'package:divya_bhakti/app/modules/global/appcolor.dart';
-import 'package:divya_bhakti/app/modules/global/customBottomNavigationBar.dart';
 import 'package:divya_bhakti/app/modules/global/global_button.dart';
 import 'package:divya_bhakti/app/modules/global/reuseable_code.dart';
 import 'package:divya_bhakti/app/modules/home/view/see_all_aarti.dart';
 import 'package:divya_bhakti/app/modules/home/view/see_all_pujari.dart';
 import 'package:divya_bhakti/app/setting/view/setting_view.dart';
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
 import 'package:get/get_rx/src/rx_typedefs/rx_typedefs.dart';
 import 'package:intl/intl.dart';
-
-import '../../../Route/customRoute.dart';
 import '../../drawer/maindra.dart';
-import '../../search_bar/search_bar.dart';
 
 class HomeView extends StatelessWidget {
   const HomeView({super.key});
