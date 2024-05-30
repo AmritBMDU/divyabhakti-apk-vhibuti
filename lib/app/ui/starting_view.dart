@@ -1,6 +1,5 @@
 import 'package:divya_bhakti/app/Route/appRoute.dart';
 import 'package:divya_bhakti/app/ui/login_view.dart';
-import 'package:divya_bhakti/app/ui/signup_view.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

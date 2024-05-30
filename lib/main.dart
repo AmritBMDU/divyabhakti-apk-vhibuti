@@ -3,23 +3,20 @@ import 'package:divya_bhakti/app/Route/appRoute.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-
-
 void main() async {
   WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
   // await Firebase.initializeApp();
   // FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
-  // niche vala splash screen k liye h 
   
-  runApp(Divya_Bhakti());
+  runApp(DivyaBhakti());
   // Future.delayed(Duration(seconds: 1)).then((value) {
   //   FlutterNativeSplash.remove();
 
   // });
 }
 
-class Divya_Bhakti extends StatelessWidget {
-  const Divya_Bhakti({super.key});
+class DivyaBhakti extends StatelessWidget {
+  const DivyaBhakti({super.key});
 
   @override
   Widget build(BuildContext context) {
